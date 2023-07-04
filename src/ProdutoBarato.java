@@ -19,7 +19,7 @@ public class ProdutoBarato {
         produto3 = entrada.next();
         preco3 = entrada.nextDouble();
 
-        if (preco1 < preco2 && preco2 < preco3) {
+        if (preco1 < preco2 && preco1 < preco3) {
             System.out.println("O primeiro produto tem o menor preco");
         } else if (preco2 < preco1 && preco2 < preco3) {
             System.out.println("O segundo produto tem o menor preco");
